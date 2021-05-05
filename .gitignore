@@ -128,5 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# blog
+# my environment
 media/
+.pylintrc
+workspace.code-workspace
+.vscode
