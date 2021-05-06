@@ -4,6 +4,13 @@
     <title>投稿一覧</title>
 </head>
 <body>
-    <h2>これは投稿一覧のページです!</h2>
+    <h1>ようこそ、myブログへ！</h1>
+    <h2>最新の投稿</h2>
+
+    {% for post in posts.all %}
+
+        {{ post.title }}
+
+    {% endfor %}
 </body>
 </html>
