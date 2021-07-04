@@ -10,6 +10,11 @@
     {% for post in posts.all %}
 
         {{ post.title }}
+        <br /><br />
+        {{ post.published }}
+        <br /><br />
+        {{ post.summary }}
+        <br /><br />
 
     {% endfor %}
 </body>
