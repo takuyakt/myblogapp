@@ -1,1 +1,15 @@
-{{ post_id }}
+<!DOCTYPE html>
+<html lang = "ja-JP">
+<head>
+    <title>投稿一覧</title>
+</head>
+<body>
+    {{ post.title }}
+    <br /><br />
+    {{ post.published}}
+    <br /><br />
+    <img src="{{ post.image.url }}">
+    <br /><br />
+    {{ post.body}}
+</body>
+</html>
