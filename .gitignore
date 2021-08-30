@@ -133,3 +133,4 @@ media/
 .pylintrc
 workspace.code-workspace
 .vscode
+posts/static/posts/
